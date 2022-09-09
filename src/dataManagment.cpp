@@ -19,6 +19,10 @@
  * Author: Emil Sedlacek (U2Firestar, Firestar)
  * Supported by UAS Technikum Vienna and 3S-Sedlak
  * Note: See Documentation, commandtable in Excle and Firmware-Source-Files for more info!
+ * 
+ * Special thanks to:
+ * RC-Switch from sui77 @ Github https://github.com/sui77/rc-switch
+ * OSFS from charlesbaynham @ Github https://github.com/charlesbaynham/OSFS
  */
 
 #include "dataManagment.hpp"
