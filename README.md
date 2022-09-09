@@ -6,7 +6,8 @@ It's purpose is to receive command via StringNet (own protocoll over UART / USB)
 
 Features: 
 - Imitation of RF-Transmitters for power outlets (sequences need to be analyzed via RF-receiver and oscilosope beforehand) 
-- Portable to other Arduinos
+- Easily portable to other microcontrollers similar to Arduino Nano
+- Modular, reaction-based programm
 - Dynamic database containing object-Information (Name, RF-Sequences, RFProtocol bzw. encoding und details, IDs)
 - Changes to objects during operation possible
 
