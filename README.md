@@ -1,5 +1,5 @@
 # StringNet-RF-Gateway-Firmware
-Technikum Wien BSA4-VS-Projekt 2021
+Technikum Wien BSA Thesis 2021/2022
 
 This project builds upon following librarys:
 - RC-Switch from sui77 @ Github https://github.com/sui77/rc-switch
