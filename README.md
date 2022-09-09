@@ -1,7 +1,7 @@
 # StringNet-RF-Gateway-Firmware
 
-This part of the bachelor thesis project (MQTT/Homie-RF433-MHz-Bridge to remote power outlets) is the actuating end to API/Gateway [https://github.com/U2Firestar/StringNet-RF-APIandGUI/], easily attachable to a python and USB-capable server to enable communication to RF-Devices.
-It receives commands via StringNet (own protocoll over UART / USB) and acts accordingly.
+This part of the bachelor thesis project (MQTT/Homie-RF433-MHz-Bridge to remote power outlets) is the actuating end, easily attachable to a python and USB-capable server to enable communication to RF-Devices. It receives commands via StringNet (own protocoll over UART / USB) and acts accordingly.
+Its' counterpart is the other part of the project StringNet-RF-APIandGUI (https://github.com/U2Firestar/StringNet-RF-APIandGUI/)
 
 Used IDE is: PlatformIO using Arduino Framework
 
