@@ -1,8 +1,9 @@
 # StringNet-RF-Gateway-Firmware
-Technikum Wien BSA Thesis 2021/2022
 
-This part of the bachelor thesis project is the actuating end to https://github.com/U2Firestar/StringNet-RF-APIandGUI/.
+This part of the bachelor thesis project is the actuating end to https://github.com/U2Firestar/StringNet-RF-APIandGUI/, easily attachable to a python and USB-capable server to communicate to RF-Devices.
 It's purpose is to receive command via StringNet (own protocoll over UART / USB) and act accordingly.
+
+Used IDE is: PlatformIO using Arduino Framework
 
 Features: 
 - Imitation of RF-Transmitters for power outlets (sequences need to be analyzed via RF-receiver and oscilosope beforehand) 
