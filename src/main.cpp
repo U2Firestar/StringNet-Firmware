@@ -16,7 +16,7 @@
 
  * Softwarename: StringNet-IoT-Gateway - Main to launch and loop tasks
  * Version: 2.0.0, 16.04.2022
- * Author: Emil Sedlacek (U2Firestar, Firestar) (U2Firestar, Firestar)
+ * Author: Emil Sedlacek (U2Firestar, Firestar)
  * Supported by UAS Technikum Vienna and 3S-Sedlak
  * Note: See Documentation, commandtable in Excle and Firmware-Source-Files for more info!
  * 
