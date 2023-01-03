@@ -17,3 +17,7 @@ This project builds upon following librarys:
 - [OSFS](https://github.com/charlesbaynham/OSFS) von charlesbaynham @ Github
 
 Therefor special thanks!
+
+Versions:
+- 1.0.0 - 08.2021 - Hardcoded initial version
+- 2.0.0 - 04.2022 - Hardcoded to dynamic solution
