@@ -1,7 +1,7 @@
-# StringNet-RF-Gateway-Firmware
+# AVR / Arduino Firmware to act as a StringNet-Device
 
-This part of the bachelor thesis project (MQTT/Homie-RF433-MHz-Bridge to remote power outlets) is the actuating end, easily attachable to a python and USB-capable server to enable communication to RF-Devices. It receives commands via StringNet (own protocoll over UART / USB) and acts accordingly.
-Its' counterpart is [StringNet-RF-APIandGUI](https://github.com/U2Firestar/StringNet-RF-APIandGUI/)
+This part of the bachelor thesis project (RF-Bridge between a Smart Home and remote power outlets, over MQTT/Homie) is the firmware of the StringNet (own protocoll over UART / USB) - Device to enable (unidirectional) communication to RF-Devices. It receives commands via StringNet and acts accordingly.
+Its' counterpart is [StringNet-Gateway](https://github.com/U2Firestar/StringNet-Gateway).
 
 Used IDE is: PlatformIO using Arduino Framework
 
