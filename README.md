@@ -1,16 +1,14 @@
-# AVR / Arduino Firmware to act as a StringNet-Device
-
-This part of the bachelor thesis project (RF-Bridge between a Smart Home and remote power outlets, over MQTT/Homie) is the firmware of the StringNet (own protocoll over UART / USB) - Device to enable (unidirectional) communication to RF-Devices. It receives commands via StringNet and acts accordingly.
-Its' counterpart is [StringNet-Gateway](https://github.com/U2Firestar/StringNet-Gateway).
-
-Used IDE is: PlatformIO using Arduino Framework
+# StringNet-Firmware
 
 Features: 
-- Imitation of RF-Transmitters for power outlets (sequences need to be analyzed via RF-receiver and oscilosope beforehand) 
-- Easily portable to other microcontrollers similar to Arduino Nano
-- Modular, reaction-based programm
-- Dynamic database containing object-Information (Name, RF-Sequences, RFProtocol bzw. encoding und details, IDs)
-- Changes to objects during operation possible
+- Listens and answers to commands over StringNet (own protocoll over UART / USB) from [StringNet-Gateway](https://github.com/U2Firestar/StringNet-Gateway)
+- Imitation of RF-Transmitters for power outlets
+- Modular, reaction-based, dynamic database containing object-Information (Name, RF-Sequences, RFProtocol bzw. encoding und details, IDs) with changes during operation allowed
+- Multiple StringNet-Devices on one bus possible
+
+Limitations:
+- RF-Receiver theoretically implemented but not working
+- - THUS RF-Sequences need to be analyzed via RF-receiver and oscilosope manually
 
 This project builds upon following librarys:
 - [RC-Switch](https://github.com/sui77/rc-switch) from sui77 @ Github
@@ -18,6 +16,8 @@ This project builds upon following librarys:
 
 Therefor special thanks!
 
+About: Project for Bachelorthesis, originally supported by UAS Technikum Vienna and 3S-Sedlak
+IDE: PlatformIO + AVR / Arduino Framework
 Versions:
 - 1.0.0 - 08.2021 - Hardcoded initial version
-- 2.0.0 - 04.2022 - Hardcoded to dynamic solution
+- 2.0.0 - 04.2022 - Revised firmware to dynamic solution with FW Settings: Addressing disabled, Lifesign every 60sec
