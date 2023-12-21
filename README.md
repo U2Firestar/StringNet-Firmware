@@ -2,13 +2,12 @@
 
 Features: 
 - Listens and answers to commands over StringNet (own protocoll over UART / USB) from [StringNet-Gateway](https://github.com/U2Firestar/StringNet-Gateway)
-- Imitation of RF-Transmitters for power outlets
+- Imitation of unidirectional RF power outlet signals
 - Modular, reaction-based, dynamic database containing object-Information (Name, RF-Sequences, RFProtocol bzw. encoding und details, IDs) with changes during operation allowed
-- Multiple StringNet-Devices on one bus possible
+- Addressing: Multiple StringNet-Devices on one bus possible
 
 Limitations:
-- RF-Receiver theoretically implemented but not working
-- - THUS RF-Sequences need to be analyzed via RF-receiver and oscilosope manually
+- RF-Sequences need to be analyzed via RF-receiver and oscilosope manually
 
 This project builds upon following librarys:
 - [RC-Switch](https://github.com/sui77/rc-switch) from sui77 @ Github
