@@ -9,11 +9,9 @@ Features:
 Limitations:
 - RF-Sequences need to be analyzed via RF-receiver and oscilosope manually
 
-This project builds upon following librarys:
+This project builds upon following librarys and therefor special thanks to:
 - [RC-Switch](https://github.com/sui77/rc-switch) from sui77 @ Github
 - [OSFS](https://github.com/charlesbaynham/OSFS) von charlesbaynham @ Github
-
-Therefor special thanks!
 
 About: Project for Bachelorthesis, originally supported by UAS Technikum Vienna and 3S-Sedlak
 IDE: PlatformIO + AVR / Arduino Framework
