@@ -14,11 +14,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.
 
- * Softwarename: StringNet-IoT-Gateway - RF-433Mhz-related
+ * Software: StringNet-Firmware for RF-Control - RF-433Mhz-related
  * Version: 2.0.0, 16.04.2022
  * Author: Emil Sedlacek (U2Firestar, Firestar)
  * Supported by UAS Technikum Vienna and 3S-Sedlak
- * Note: See Documentation, commandtable in Excle and Firmware-Source-Files for more info!
+ * Note: See README and source-Files of firmware for more info!
  * 
  * Special thanks to:
  * RC-Switch from sui77 @ Github https://github.com/sui77/rc-switch
